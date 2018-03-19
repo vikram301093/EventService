@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: EventService-server-resources
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: Rohit
+Built-By: A631043
 Implementation-Vendor-Id: net.atos.codexiot
-Build-Jdk: 1.8.0_151
+Build-Jdk: 1.8.0_161
 Implementation-URL: http://projects.spring.io/spring-boot/EventService
  /EventService-server-resources/
 Created-By: Maven Integration for Eclipse

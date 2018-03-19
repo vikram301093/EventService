@@ -47,8 +47,9 @@ private String url;
 		return dataSource;*/
 		
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
-		this.url="jdbc:postgresql://"+ env.getProperty("spring.datasource.host") + ":"
+		this.url="jdbc:mysql://"+ env.getProperty("spring.datasource.host") + ":"
 				+ env.getProperty("spring.datasource.port") + "/"+ env.getProperty("spring.datasource.dbname");
+		
 		System.out.println("url :"+url);
 		dataSource.setUsername(env.getProperty("spring.datasource.username"));
 		dataSource.setPassword(env.getProperty("spring.datasource.password"));
